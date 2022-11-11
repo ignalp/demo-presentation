@@ -1,0 +1,97 @@
+<!--/*    
+      background-color: #003057; /* Navy blue */
+      /*
+      background-image: url(background.png);
+      background-size: contain;
+      background-color: #0078C9; /* Corporate blue */
+<div class="slides">
+   <img class="footer" src="footer.png"/>
+</div>   
+      -->
+    <style contenteditable="true">
+      :root { 
+       --r-background-color: #003057;
+      }
+      .slides .footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: auto;
+      }
+      .reveal {
+      font-size: 20pt;
+      line-height: 1.2em;
+      background-color: #003057; /* Navy blue */
+      }
+     .reveal pre code {
+      font-size: 16pt;
+      line-height: 1.2em;
+      background-color: #003057; /* Navy blue */
+      }
+      .slides {
+       position: relative;
+       color: whitesmoke;
+      }
+      .slides h1, .slides h2, .slides h3 {
+       color: whitesmoke;
+      }
+      header-footer .footer-img{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: auto;
+      color: #003057; /* Navy blue */
+      }
+      .reveal ::selection {
+      background: #94CEFF;
+      }
+      h1.title {
+         position: relative;
+         top: -50px;
+         left: -15%;
+         text-align: left;
+         font-size: 44pt;
+         color: #FFC425;
+      }
+      p.author{
+         position: relative;
+         top: -30px;
+         left: -15%;
+         font-size: 24pt;
+         text-align: left;
+      }
+      p.date{
+         position: relative;
+         top: -45px;
+         left: -15%;
+         font-size: 24pt;
+         text-align: left;
+      }
+      mark{
+         background: #FFC425;
+         color: #003057;   
+         }
+      .pdf-page h1.title{
+         position: relative;
+         top: -25px;
+         left: 0.1%;
+         text-align: left;
+         font-size: 38pt;
+         color: #FFC425;
+      }
+      .pdf-page p.author{
+         position: relative;
+         top: -30px;
+         left: 0.1%;
+         font-size: 20pt;
+         text-align: left;
+      }
+      .pdf-page p.date{
+         position: relative;
+         top: -45px;
+         left: 0.1%;
+         font-size: 20pt;
+         text-align: left;
+      }
+
+    </style>
